@@ -1,0 +1,330 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<!-- Mirrored from laravel.com/docs/ssh by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 14 Jan 2014 00:40:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Laravel - The PHP Framework For Web Artisans.</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="author" content="iKreativ">
+    <meta name="description" content="Laravel - The PHP framework for web artisans.">
+    <meta name="keywords" content="laravel, php, framework, web, artisans, taylor otwell">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../favicon5e1f.png?v=2">
+
+    <!-- we're minifying and combining all our css -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- grab jquery from google cdn. fall back to local if offline -->
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/jquery.js"><\/script>')</script>
+
+    <!-- prettyprint -->
+    <script src="../../google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+    <!-- load up our js -->
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/application.js"></script>
+
+    <!-- fonts -->
+    <script src="../../use.edgefonts.net/source-sans-pro_n3%2ci3%2cn4%2ci4%2cn6%2ci6%2cn7%2ci7.js"></script>
+    <script src="../../use.edgefonts.net/source-code-pro.js"></script>
+
+    <!-- some conditionals for ie -->
+    <!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <!-- HTML5 elements in less than IE9, yes please! -->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- If less than IE8 add some JS for the webfont icons -->
+    <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
+
+    <!-- asynchronous google analytics. change UA-XXXXX-X to your site's ID -->
+    <script>
+        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
+        (function(d,t){
+    		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        	s.parentNode.insertBefore(g,s)
+    	}(document,'script'));
+    </script>
+</head>
+
+<body id="index" class="page docs">
+
+	<!-- wrapper -->
+    <div id="wrapper">
+
+        <!-- header -->
+        <header id="header" role="header">
+            <div class="boxed">
+                <!-- tagline -->
+                <div id="tagline">
+                    <h1>Documentation.</h1>
+                </div>
+                <!-- /tagline -->
+
+                <!-- version -->
+                <div id="version">
+                    <ul class="nolist">
+                                                    <li><a href="http://laravel.com/docs/dev" title="Dev">Dev</a></li>
+                            <li class="current"><a href="http://laravel.com/docs/4-1" title="4.1">4.1</a></li>
+                            <li><a href="http://laravel.com/docs/4-0" title="4.0">4.0</a></li>
+                                            </ul>
+                </div>
+                <!-- /version -->
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- nav -->
+    	<nav id="primary">
+    	    <div class="boxed">
+    	        <div id="logo-head">
+    	           <a href="http://laravel.com/"><img src="../assets/img/logo-head.png" alt="Laravel" /></a>
+    	        </div>
+                <ul>
+                    <li><a href="http://laravel.com/">Welcome</a></li>
+                    <li class="current-item"><a href="../docs.html" title="Documentation">Documentation</a></li>
+                    <li><a href="../api/4.1/index.html" title="Laravel Framework API">API</a></li>
+                    <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
+                    <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                    <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /nav -->
+
+        <!-- content -->
+        <div id="content">
+
+            <!-- docs -->
+            <section id="documentation">
+                <article class="boxed">
+
+                    <!-- docs nav -->
+                    <nav id="docs">
+                        <!-- Pull table of contents -->
+                        <ul>
+<li>Preface
+
+<ul>
+<li><a href="introduction.html">Introduction</a></li>
+<li><a href="quick.html">Quickstart</a></li>
+<li><a href="releases.html">Release Notes</a></li>
+<li><a href="upgrade.html">Upgrade Guide</a></li>
+</ul></li>
+<li>Getting Started
+
+<ul>
+<li><a href="installation.html">Installation</a></li>
+<li><a href="configuration.html">Configuration</a></li>
+<li><a href="lifecycle.html">Request Lifecycle</a></li>
+<li><a href="routing.html">Routing</a></li>
+<li><a href="requests.html">Requests &amp; Input</a></li>
+<li><a href="responses.html">Views &amp; Responses</a></li>
+<li><a href="controllers.html">Controllers</a></li>
+<li><a href="errors.html">Errors &amp; Logging</a></li>
+</ul></li>
+<li>Learning More
+
+<ul>
+<li><a href="security.html">Authentication</a></li>
+<li><a href="cache.html">Cache</a></li>
+<li><a href="extending.html">Core Extension</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="facades.html">Facades</a></li>
+<li><a href="html.html">Forms &amp; HTML</a></li>
+<li><a href="helpers.html">Helpers</a></li>
+<li><a href="ioc.html">IoC Container</a></li>
+<li><a href="localization.html">Localization</a></li>
+<li><a href="mail.html">Mail</a></li>
+<li><a href="packages.html">Package Development</a></li>
+<li><a href="pagination.html">Pagination</a></li>
+<li><a href="queues.html">Queues</a></li>
+<li><a href="security.html">Security</a></li>
+<li><a href="session.html">Session</a></li>
+<li><a href="ssh.html">SSH</a></li>
+<li><a href="templates.html">Templates</a></li>
+<li><a href="testing.html">Unit Testing</a></li>
+<li><a href="validation.html">Validation</a></li>
+</ul></li>
+<li>Database
+
+<ul>
+<li><a href="database.html">Basic Usage</a></li>
+<li><a href="queries.html">Query Builder</a></li>
+<li><a href="eloquent.html">Eloquent ORM</a></li>
+<li><a href="schema.html">Schema Builder</a></li>
+<li><a href="migrations.html">Migrations &amp; Seeding</a></li>
+<li><a href="redis.html">Redis</a></li>
+</ul></li>
+<li>Artisan CLI
+
+<ul>
+<li><a href="artisan.html">Overview</a></li>
+<li><a href="commands.html">Development</a></li>
+</ul></li>
+</ul>
+                    </nav>
+                    <!-- /docs nav -->
+
+                    <!-- docs content -->
+                    <div id="docs-content">
+                        <h1>SSH</h1>
+
+<ul>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#basic-usage">Basic Usage</a></li>
+<li><a href="#tasks">Tasks</a></li>
+<li><a href="#sftp-uploads">SFTP Uploads</a></li>
+<li><a href="#tailing-remote-logs">Tailing Remote Logs</a></li>
+</ul>
+
+<p><a name="configuration"></a></p>
+
+<h2>Configuration</h2>
+
+<p>Laravel includes a simple way to SSH into remote servers and run commands, allowing you to easily build Artisan tasks that work on remote servers. The <code>SSH</code> facade provides the access point to connecting to your remote servers and running commands.</p>
+
+<p>The configuration file is located at <code>app/config/remote.php</code>, and contains all of the options you need to configure your remote connections. The <code>connections</code> array contains a list of your servers keyed by name. Simple populate the credentials in the <code>connections</code> array and you will be ready to start running remote tasks. Note that the <code>SSH</code> can authenticate using either a password or an SSH key.</p>
+
+<p><a name="basic-usage"></a></p>
+
+<h2>Basic Usage</h2>
+
+<h4>Running Commands On The Default Server</h4>
+
+<p>To run commands on your <code>default</code> remote connection, use the <code>SSH::run</code> method:</p>
+
+<pre><code>SSH::run(array(
+    'cd /var/www',
+    'git pull origin master',
+));
+</code></pre>
+
+<h4>Running Commands On A Specific Connection</h4>
+
+<p>Alternatively, you may run commands on a specific connection using the <code>into</code> method:</p>
+
+<pre><code>SSH::into('staging')-&gt;run(array(
+    'cd /var/www',
+    'git pull origin master',
+));
+</code></pre>
+
+<h4>Catching Output From Commands</h4>
+
+<p>You may catch the "live" output of your remote commands by passing a Closure into the <code>run</code> method:</p>
+
+<pre><code>SSH::run($commands, function($line)
+{
+    echo $line.PHP_EOL;
+});
+</code></pre>
+
+<h2>Tasks</h2>
+
+<p><a name="tasks"></a></p>
+
+<p>If you need to define a group of commands that should always be run together, you may use the <code>define</code> method to define a <code>task</code>:</p>
+
+<pre><code>SSH::into('staging')-&gt;define('deploy', array(
+    'cd /var/www',
+    'git pull origin master',
+    'php artisan migrate',
+));
+</code></pre>
+
+<p>Once the task has been defined, you may use the <code>task</code> method to run it:</p>
+
+<pre><code>SSH::into('staging')-&gt;task('deploy', function($line)
+{
+    echo $line.PHP_EOL;
+});
+</code></pre>
+
+<p><a name="sftp-uploads"></a></p>
+
+<h2>SFTP Uploads</h2>
+
+<p>The <code>SSH</code> class also includes a simple way to upload files, or even strings, to the server using the <code>put</code> and <code>putString</code> methods:</p>
+
+<pre><code>SSH::into('staging')-&gt;put($localFile, $remotePath);
+
+SSH::into('staging')-&gt;putString('Foo', $remotePath);
+</code></pre>
+
+<p><a name="tailing-remote-logs"></a></p>
+
+<h2>Tailing Remote Logs</h2>
+
+<p>Laravel includes a helpful command for tailing the <code>laravel.log</code> files on any of your remote connections. Simple use the <code>tail</code> Artisan command and specify the name of the remote connection you would like to tail:</p>
+
+<pre><code>php artisan tail staging
+
+php artisan tail staging --path=/path/to/log.file
+</code></pre>
+                    </div>
+                    <!-- /docs content -->
+
+                </article>
+    	    </section>
+    	    <!-- /docs -->
+
+        </div>
+    	<!-- /content -->
+
+        <!-- footer -->
+        <footer id="foot" class="textcenter">
+            <div class="boxed">
+
+                <!-- nav -->
+                <nav id="secondary">
+                    <div id="logo-foot">
+        	           <a href="http://laravel.com/"><img src="../assets/img/logo-foot.png" alt="Laravel" /></a>
+        	        </div>
+                    <ul>
+                        <li><a href="http://laravel.com/">Welcome</a></li>
+                        <li class="current-item"><a href="../docs.html" title="Documentation">Documentation</a></li>
+                        <li><a href="../docs.html" title="Laravel Framework API">API</a></li>
+                        <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
+                        <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                        <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                    </ul>
+                </nav>
+                <!-- /nav -->
+
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- to the top -->
+        <div id="top">
+            <a href="#index" title="Back to the top">
+                <i class="icon-chevron-up"></i>
+            </a>
+        </div>
+        <!-- /to the top -->
+
+    </div>
+    <!-- /wrapper -->
+
+    <!-- copyright -->
+    <section id="copyright" class="textcenter">
+        <div class="boxed">
+            <div class="animated slideInLeft">Laravel is a trademark of Taylor Otwell. Copyright &copy; <a href="http://twitter.com/taylorotwell" title="Taylor Otwell" target="_blank">Taylor Otwell</a>. Website built with &hearts; <a href="http://ikreativ.com/" title="iKreativ" target="_blank">iKreativ</a>.</div>
+        </div>
+    </section>
+    <!-- /copyright -->
+
+</body>
+
+<!-- Mirrored from laravel.com/docs/ssh by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 14 Jan 2014 00:40:58 GMT -->
+</html>

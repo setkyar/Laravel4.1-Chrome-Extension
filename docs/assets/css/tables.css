@@ -1,0 +1,45 @@
+/**
+ * Tables
+ */
+table 
+{
+  	width: 100%;
+  	margin-bottom: 18px;
+  	padding: 0;
+  	border-collapse: separate;
+  	font-size: 13px;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+}
+table th, 
+table td 
+{
+  	padding: 12px 10px 8px 10px;
+  	line-height: 13.5px;
+  	text-align: left;
+  	vertical-align: middle;
+  	border-top: 1px solid #dddddd;
+}
+table th 
+{
+  	font-weight: bold;
+    border-top: none;
+    font-size: 16px;
+}
+table code
+{
+    font-size: 12px;
+}
+.table-striped tbody tr:nth-child(odd) td 
+{
+  	background-color: #f9f9f9;
+}
+.table-striped tbody tr:hover td 
+{
+  	background-color: #f5f5f5;
+}
+/* @end Tables */
+
+#left {display:none} #splitter {display:none} #right{margin-left:0px; position:static; overflow:visible;} #search{display:none} body header {display: none !important} .docs-heading {display:none !important} body {margin-top:0px !important} .docs-content {padding: 0.5em 0 2em 0 !important} .container{width:auto !important; max-width:820px !important} nav#primary {display:none !important} #content {padding-top:0px !important} nav#docs {padding:21px 0 !important} nav#docs ul {margin-left:15px !important} .boxed {width:auto !important} #docs-content {margin-left:200px !important; float: none !important; width:auto !important; padding-top: 1px !important;} #top {display:none !important} #foot {display:none !important} #copyright {display:none !important} .prettyprint {white-space:pre-wrap !important} .docs-body {float:none !important; margin-left:220px !important; width:auto !important; max-width:600px !important}
+
+blockquote {width:auto !important} 

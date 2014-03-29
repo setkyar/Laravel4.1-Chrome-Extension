@@ -1,0 +1,114 @@
+/**
+ * Buttons
+ */
+.button
+{
+	background-color: #ad4844;
+	display: inline-block;
+	padding: 10px 20px 8px 20px;
+	margin-bottom: 1.5em;
+	color: #ffffff!important;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.small.button
+{
+	font-size: 14px;
+}
+
+.medium.button
+{
+	font-size: 18px;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.large.button
+{
+	font-size: 20px;
+	padding: 15px 25px;
+}
+
+.rounded.button
+{
+	border-radius: 25px;
+}
+
+/**
+ * Pink
+ */
+.pink.button
+{
+	background-color: #fe57a1!important;
+}
+
+/**
+ * Green
+ */
+.green.button
+{
+	background-color: #91bd09!important;
+}
+
+/**
+ * Blue
+ */
+.blue.button
+{
+	background-color: #2daebf!important;
+}
+
+/**
+ * Red
+ */
+.red.button
+{
+	background-color: #ff0000!important;
+}
+
+/**
+ * Magenta
+ */
+.magenta.button
+{
+	background-color: #a9014b!important;
+}
+
+/**
+ * Orange
+ */
+.orange.button
+{
+	background-color: #F16863!important;
+}
+
+/**
+ * Yellow
+ */
+.yellow.button
+{
+	background-color: #ffb515!important;
+}
+
+/**
+ * Hovers
+ */
+.button:hover
+{
+	background-color: #eb6363!important;
+	color: #ffffff!important;
+}
+
+.button:active
+{
+	top: 1px;
+}
+/* @end Buttons */
+#left {display:none} #splitter {display:none} #right{margin-left:0px; position:static; overflow:visible;} #search{display:none} body header {display: none !important} .docs-heading {display:none !important} body {margin-top:0px !important} .docs-content {padding: 0.5em 0 2em 0 !important} .container{width:auto !important; max-width:820px !important} nav#primary {display:none !important} #content {padding-top:0px !important} nav#docs {padding:21px 0 !important} nav#docs ul {margin-left:15px !important} .boxed {width:auto !important} #docs-content {margin-left:200px !important; float: none !important; width:auto !important; padding-top: 1px !important;} #top {display:none !important} #foot {display:none !important} #copyright {display:none !important} .prettyprint {white-space:pre-wrap !important} .docs-body {float:none !important; margin-left:220px !important; width:auto !important; max-width:600px !important}
+
+blockquote {width:auto !important} 

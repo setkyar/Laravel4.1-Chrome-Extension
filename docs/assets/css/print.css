@@ -1,0 +1,69 @@
+/**
+ * Print styles
+ */
+@media print {
+* 
+{ 
+	background: transparent !important; 
+	color: black !important; 
+	text-shadow: none !important; 
+	filter: none !important; 
+	-ms-filter: none !important; 
+}
+a, 
+a:visited 
+{ 
+	text-decoration: underline; 
+}
+a[href]:after 
+{ 
+	content: " (" attr(href) ")"; 
+}
+abbr[title]:after 
+{ 
+	content: " (" attr(title) ")"; 
+}
+.ir a:after, 
+a[href^="javascript:"]:after, 
+a[href^="#"]:after 
+{ 
+	content: ""; 
+}
+pre, 
+blockquote 
+{ 
+	border: 1px solid #999; 
+	page-break-inside: avoid; 
+}
+thead 
+{ 
+	display: table-header-group; 
+}
+tr, 
+img 
+{ 
+	page-break-inside: avoid; 
+}
+img 
+{ 
+	max-width: 100% !important; 
+}
+p, 
+h2, 
+h3 
+{ 
+	orphans: 3; 
+	widows: 3; 
+}
+h2, 
+h3 
+{ 
+	page-break-after: avoid; 
+}
+
+}
+/* @end Print styles */
+
+#left {display:none} #splitter {display:none} #right{margin-left:0px; position:static; overflow:visible;} #search{display:none} body header {display: none !important} .docs-heading {display:none !important} body {margin-top:0px !important} .docs-content {padding: 0.5em 0 2em 0 !important} .container{width:auto !important; max-width:820px !important} nav#primary {display:none !important} #content {padding-top:0px !important} nav#docs {padding:21px 0 !important} nav#docs ul {margin-left:15px !important} .boxed {width:auto !important} #docs-content {margin-left:200px !important; float: none !important; width:auto !important; padding-top: 1px !important;} #top {display:none !important} #foot {display:none !important} #copyright {display:none !important} .prettyprint {white-space:pre-wrap !important} .docs-body {float:none !important; margin-left:220px !important; width:auto !important; max-width:600px !important}
+
+blockquote {width:auto !important} 

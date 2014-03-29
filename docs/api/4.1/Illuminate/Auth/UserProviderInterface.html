@@ -1,0 +1,194 @@
+<html><!-- Mirrored from laravel.com/api/4.1/Illuminate/Auth/UserProviderInterface.html by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 14 Jan 2014 00:42:10 GMT --><head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="index, follow, all">
+        <title>Illuminate\Auth\UserProviderInterface</title>
+                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../classes.html">Classes</a></li>
+                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../traits.html">Traits</a></li>
+            <li><a href="../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title"></div>
+
+            <div class="type">Interface</div>
+    <h1><a href="../Auth.html">Illuminate\Auth</a>\UserProviderInterface</h1>
+    </div>
+        <div class="content">
+                <p>    interface
+    <strong>UserProviderInterface</strong></p>
+
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tbody><tr>
+                <td class="type">
+                    <a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a>|null
+                </td>
+                <td class="last">
+                    <a href="#method_retrieveById">retrieveById</a>(mixed $identifier)
+                    <p>Retrieve a user by their unique identifier.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    <a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a>|null
+                </td>
+                <td class="last">
+                    <a href="#method_retrieveByCredentials">retrieveByCredentials</a>(array $credentials)
+                    <p>Retrieve a user by the given credentials.</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    bool
+                </td>
+                <td class="last">
+                    <a href="#method_validateCredentials">validateCredentials</a>(<a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a> $user, array $credentials)
+                    <p>Validate a user against the given credentials.</p>
+                </td>
+                <td></td>
+            </tr>
+            </tbody></table>
+
+
+        <h2>Details</h2>
+
+                        <a class="dashAnchor" name="//apple_ref/Method/retrieveById"></a><h3 id="method_retrieveById">
+        <div class="location">at line 11</div>
+        <code>            public            <a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a>|null
+    <strong>retrieveById</strong>(mixed $identifier)</code>
+    </h3>
+    <div class="details">
+        <p>Retrieve a user by their unique identifier.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tbody><tr>
+                <td>mixed</td>
+                <td>$identifier</td>
+                <td>
+</td>
+            </tr>
+            </tbody></table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tbody><tr>
+            <td><a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a>|null</td>
+            <td>
+</td>
+        </tr>
+    </tbody></table>
+
+            
+            
+                    </div>
+    </div>
+
+                <a class="dashAnchor" name="//apple_ref/Method/retrieveByCredentials"></a><h3 id="method_retrieveByCredentials">
+        <div class="location">at line 19</div>
+        <code>            public            <a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a>|null
+    <strong>retrieveByCredentials</strong>(array $credentials)</code>
+    </h3>
+    <div class="details">
+        <p>Retrieve a user by the given credentials.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tbody><tr>
+                <td>array</td>
+                <td>$credentials</td>
+                <td>
+</td>
+            </tr>
+            </tbody></table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tbody><tr>
+            <td><a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a>|null</td>
+            <td>
+</td>
+        </tr>
+    </tbody></table>
+
+            
+            
+                    </div>
+    </div>
+
+                <a class="dashAnchor" name="//apple_ref/Method/validateCredentials"></a><h3 id="method_validateCredentials">
+        <div class="location">at line 28</div>
+        <code>            public            bool
+    <strong>validateCredentials</strong>(<a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a> $user, array $credentials)</code>
+    </h3>
+    <div class="details">
+        <p>Validate a user against the given credentials.</p>
+        <p>
+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tbody><tr>
+                <td><a href="UserInterface.html"><abbr title="Illuminate\Auth\UserInterface">UserInterface</abbr></a></td>
+                <td>$user</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$credentials</td>
+                <td>
+</td>
+            </tr>
+            </tbody></table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tbody><tr>
+            <td>bool</td>
+            <td>
+</td>
+        </tr>
+    </tbody></table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    
+
+<!-- Mirrored from laravel.com/api/4.1/Illuminate/Auth/UserProviderInterface.html by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 14 Jan 2014 00:42:10 GMT -->
+
+</body></html>

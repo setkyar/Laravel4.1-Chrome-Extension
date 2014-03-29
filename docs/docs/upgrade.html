@@ -1,0 +1,304 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<!-- Mirrored from laravel.com/docs/upgrade by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 14 Jan 2014 00:40:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Laravel - The PHP Framework For Web Artisans.</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+    <meta name="author" content="iKreativ">
+    <meta name="description" content="Laravel - The PHP framework for web artisans.">
+    <meta name="keywords" content="laravel, php, framework, web, artisans, taylor otwell">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../favicon5e1f.png?v=2">
+
+    <!-- we're minifying and combining all our css -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- grab jquery from google cdn. fall back to local if offline -->
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/jquery.js"><\/script>')</script>
+
+    <!-- prettyprint -->
+    <script src="../../google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+    <!-- load up our js -->
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/application.js"></script>
+
+    <!-- fonts -->
+    <script src="../../use.edgefonts.net/source-sans-pro_n3%2ci3%2cn4%2ci4%2cn6%2ci6%2cn7%2ci7.js"></script>
+    <script src="../../use.edgefonts.net/source-code-pro.js"></script>
+
+    <!-- some conditionals for ie -->
+    <!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <!-- HTML5 elements in less than IE9, yes please! -->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- If less than IE8 add some JS for the webfont icons -->
+    <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
+
+    <!-- asynchronous google analytics. change UA-XXXXX-X to your site's ID -->
+    <script>
+        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
+        (function(d,t){
+    		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        	s.parentNode.insertBefore(g,s)
+    	}(document,'script'));
+    </script>
+</head>
+
+<body id="index" class="page docs">
+
+	<!-- wrapper -->
+    <div id="wrapper">
+
+        <!-- header -->
+        <header id="header" role="header">
+            <div class="boxed">
+                <!-- tagline -->
+                <div id="tagline">
+                    <h1>Documentation.</h1>
+                </div>
+                <!-- /tagline -->
+
+                <!-- version -->
+                <div id="version">
+                    <ul class="nolist">
+                                                    <li><a href="http://laravel.com/docs/dev" title="Dev">Dev</a></li>
+                            <li class="current"><a href="http://laravel.com/docs/4-1" title="4.1">4.1</a></li>
+                            <li><a href="http://laravel.com/docs/4-0" title="4.0">4.0</a></li>
+                                            </ul>
+                </div>
+                <!-- /version -->
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- nav -->
+    	<nav id="primary">
+    	    <div class="boxed">
+    	        <div id="logo-head">
+    	           <a href="http://laravel.com/"><img src="../assets/img/logo-head.png" alt="Laravel" /></a>
+    	        </div>
+                <ul>
+                    <li><a href="http://laravel.com/">Welcome</a></li>
+                    <li class="current-item"><a href="../docs.html" title="Documentation">Documentation</a></li>
+                    <li><a href="../api/4.1/index.html" title="Laravel Framework API">API</a></li>
+                    <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
+                    <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                    <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /nav -->
+
+        <!-- content -->
+        <div id="content">
+
+            <!-- docs -->
+            <section id="documentation">
+                <article class="boxed">
+
+                    <!-- docs nav -->
+                    <nav id="docs">
+                        <!-- Pull table of contents -->
+                        <ul>
+<li>Preface
+
+<ul>
+<li><a href="introduction.html">Introduction</a></li>
+<li><a href="quick.html">Quickstart</a></li>
+<li><a href="releases.html">Release Notes</a></li>
+<li><a href="upgrade.html">Upgrade Guide</a></li>
+</ul></li>
+<li>Getting Started
+
+<ul>
+<li><a href="installation.html">Installation</a></li>
+<li><a href="configuration.html">Configuration</a></li>
+<li><a href="lifecycle.html">Request Lifecycle</a></li>
+<li><a href="routing.html">Routing</a></li>
+<li><a href="requests.html">Requests &amp; Input</a></li>
+<li><a href="responses.html">Views &amp; Responses</a></li>
+<li><a href="controllers.html">Controllers</a></li>
+<li><a href="errors.html">Errors &amp; Logging</a></li>
+</ul></li>
+<li>Learning More
+
+<ul>
+<li><a href="security.html">Authentication</a></li>
+<li><a href="cache.html">Cache</a></li>
+<li><a href="extending.html">Core Extension</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="facades.html">Facades</a></li>
+<li><a href="html.html">Forms &amp; HTML</a></li>
+<li><a href="helpers.html">Helpers</a></li>
+<li><a href="ioc.html">IoC Container</a></li>
+<li><a href="localization.html">Localization</a></li>
+<li><a href="mail.html">Mail</a></li>
+<li><a href="packages.html">Package Development</a></li>
+<li><a href="pagination.html">Pagination</a></li>
+<li><a href="queues.html">Queues</a></li>
+<li><a href="security.html">Security</a></li>
+<li><a href="session.html">Session</a></li>
+<li><a href="ssh.html">SSH</a></li>
+<li><a href="templates.html">Templates</a></li>
+<li><a href="testing.html">Unit Testing</a></li>
+<li><a href="validation.html">Validation</a></li>
+</ul></li>
+<li>Database
+
+<ul>
+<li><a href="database.html">Basic Usage</a></li>
+<li><a href="queries.html">Query Builder</a></li>
+<li><a href="eloquent.html">Eloquent ORM</a></li>
+<li><a href="schema.html">Schema Builder</a></li>
+<li><a href="migrations.html">Migrations &amp; Seeding</a></li>
+<li><a href="redis.html">Redis</a></li>
+</ul></li>
+<li>Artisan CLI
+
+<ul>
+<li><a href="artisan.html">Overview</a></li>
+<li><a href="commands.html">Development</a></li>
+</ul></li>
+</ul>
+                    </nav>
+                    <!-- /docs nav -->
+
+                    <!-- docs content -->
+                    <div id="docs-content">
+                        <h1>Upgrade Guide</h1>
+
+<ul>
+<li><a href="#upgrade-4.1">Upgrading To 4.1 From 4.0</a></li>
+</ul>
+
+<p><a name="upgrade-4.1"></a></p>
+
+<h2>Upgrading To 4.1 From 4.0</h2>
+
+<h3>Upgrading Your Composer Dependency</h3>
+
+<p>To upgrade your application to Laravel 4.1, change your <code>laravel/framework</code> version to <code>4.1.*</code> in your <code>composer.json</code> file.</p>
+
+<h3>Replacing Files</h3>
+
+<p>Replace your <code>public/index.php</code> file with <a href="https://github.com/laravel/laravel/blob/master/public/index.php">this fresh copy from the repository</a>.</p>
+
+<p>Replace your <code>artisan</code> file with <a href="https://github.com/laravel/laravel/blob/master/artisan">this fresh copy from the repository</a>.</p>
+
+<h3>Adding Configuration Files &amp; Options</h3>
+
+<p>Update your <code>aliases</code> and <code>providers</code> arrays in your <code>app/config/app.php</code> configuration file. The updated values for these arrays can be found <a href="https://github.com/laravel/laravel/blob/master/app/config/app.php">in this file</a>. Be sure to add your custom and package service providers / aliases back to the arrays.</p>
+
+<p>Add the new <code>app/config/remote.php</code> file <a href="https://github.com/laravel/laravel/blob/master/app/config/remote.php">from the repository</a>.</p>
+
+<p>Add the new <code>expire_on_close</code> configuration option to your <code>app/config/session.php</code> file. The default value should be <code>false</code>.</p>
+
+<p>Add the new <code>failed</code> configuration section to your <code>app/config/queue.php</code> file. Here are the default values for the section:</p>
+
+<pre><code>'failed' =&gt; array(
+    'database' =&gt; 'mysql', 'table' =&gt; 'failed_jobs',
+),
+</code></pre>
+
+<p><strong>(Optional)</strong> Update the <code>pagination</code> configuration option in your <code>app/config/view.php</code> file to <code>pagination::slider-3</code>.</p>
+
+<h3>Controller Updates</h3>
+
+<p>If <code>app/controllers/BaseController.php</code> has a <code>use</code> statement at the top, change <code>use Illuminate\Routing\Controllers\Controller;</code> to <code>use Illuminate\Routing\Controller;</code>.</p>
+
+<h3>Password Reminders Updates</h3>
+
+<p>Password reminders have been overhauled for greater flexibility. You may examine the new stub controller by running the <code>php artisan auth:reminders-controller</code> Artisan command. You may also browse the <a href="security.html#password-reminders-and-reset">updated documentation</a> and update your application accordingly.</p>
+
+<p>Update your <code>app/lang/en/reminders.php</code> language file to match <a href="https://github.com/laravel/laravel/blob/master/app/lang/en/reminders.php">this updated file</a>.</p>
+
+<h3>Environment Detection Updates</h3>
+
+<p>For security reasons, URL domains may no longer be used to detect your application environment. These values are easily spoofable and allow attackers to modify the environment for a request. You should convert your environment detection to use machine host names (<code>hostname</code> command on Mac &amp; Ubuntu).</p>
+
+<h3>Simpler Log Files</h3>
+
+<p>Laravel now generates a single log file: <code>app/storage/logs/laravel.log</code>. However, you may still configure this behavior in your <code>app/start/global.php</code> file.</p>
+
+<h3>Removing Redirect Trailing Slash</h3>
+
+<p>In your <code>bootstrap/start.php</code> file, remove the call to <code>$app-&gt;redirectIfTrailingSlash()</code>. This method is no longer needed as this functionality is now handled by the <code>.htaccess</code> file included with the framework.</p>
+
+<p>Next, replace your Apache <code>.htaccess</code> file with <a href="https://github.com/laravel/laravel/blob/master/public/.htaccess">this new one</a> that handles trailing slashes.</p>
+
+<h3>Current Route Access</h3>
+
+<p>The current route is now accessed via <code>Route::current()</code> instead of <code>Route::getCurrentRoute()</code>.</p>
+
+<h3>Composer Update</h3>
+
+<p>Once you have completed the changes above, you can run the <code>composer update</code> function to update your core application files! If you receive class load errors, try running the <code>update</code> command with the <code>--no-scripts</code> option enabled like so: <code>composer update --no-scripts</code>.</p>
+                    </div>
+                    <!-- /docs content -->
+
+                </article>
+    	    </section>
+    	    <!-- /docs -->
+
+        </div>
+    	<!-- /content -->
+
+        <!-- footer -->
+        <footer id="foot" class="textcenter">
+            <div class="boxed">
+
+                <!-- nav -->
+                <nav id="secondary">
+                    <div id="logo-foot">
+        	           <a href="http://laravel.com/"><img src="../assets/img/logo-foot.png" alt="Laravel" /></a>
+        	        </div>
+                    <ul>
+                        <li><a href="http://laravel.com/">Welcome</a></li>
+                        <li class="current-item"><a href="../docs.html" title="Documentation">Documentation</a></li>
+                        <li><a href="../docs.html" title="Laravel Framework API">API</a></li>
+                        <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
+                        <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                        <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                    </ul>
+                </nav>
+                <!-- /nav -->
+
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- to the top -->
+        <div id="top">
+            <a href="#index" title="Back to the top">
+                <i class="icon-chevron-up"></i>
+            </a>
+        </div>
+        <!-- /to the top -->
+
+    </div>
+    <!-- /wrapper -->
+
+    <!-- copyright -->
+    <section id="copyright" class="textcenter">
+        <div class="boxed">
+            <div class="animated slideInLeft">Laravel is a trademark of Taylor Otwell. Copyright &copy; <a href="http://twitter.com/taylorotwell" title="Taylor Otwell" target="_blank">Taylor Otwell</a>. Website built with &hearts; <a href="http://ikreativ.com/" title="iKreativ" target="_blank">iKreativ</a>.</div>
+        </div>
+    </section>
+    <!-- /copyright -->
+
+</body>
+
+<!-- Mirrored from laravel.com/docs/upgrade by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 14 Jan 2014 00:40:36 GMT -->
+</html>

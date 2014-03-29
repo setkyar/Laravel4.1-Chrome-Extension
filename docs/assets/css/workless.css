@@ -1,0 +1,97 @@
+/**
+ | ---------------------------------------------------------------
+ | Workless by @iKreativ is a CSS base framework to get your 
+ | project of the ground as fast as possible.
+ | 
+ | It is split into a number of seperate CSS files which allows
+ | you to use as much, or as little as you please.
+ |
+ | You'll notice that this file contains the Base styles only 
+ | then all other CSS is loaded seperately. This is not 
+ | recommended. Once you've decided which parts of Workless you 
+ | are going to use, then simply copy/paste them all into a 
+ | single CSS file to reduce HTTP requests!
+ | ---------------------------------------------------------------
+ */
+
+/**
+ * HTML5 display definitions
+ */
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+nav, 
+section 
+{ 
+	display: block; 
+	margin: 0 auto;
+}
+
+audio, 
+canvas, 
+video 
+{ 
+	display: inline-block; 
+	*display: inline; 
+	*zoom: 1; 
+}
+
+audio:not([controls]) 
+{ 
+	display: none; 
+}
+
+[hidden] 
+{ 
+	display: none; 
+}
+
+figure 
+{ 
+	margin: 0; 
+}
+/* @end HTML5 display definitions */
+
+/**
+ * Base
+ */
+html, 
+body 
+{
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+
+body 
+{   
+	width: 100%; 
+	overflow-x: hidden; 
+}
+/* @end Base */
+
+/**
+ * Embedded Content
+ */
+img 
+{ 
+	-ms-interpolation-mode: bicubic; 
+	vertical-align: middle; 
+	border: 0; 
+	outline: 0; 
+}
+
+/* correct overflow not hidden in IE9 */
+svg:not(:root) 
+{ 
+	overflow: hidden; 
+}
+/* @end Embedded content */
+#left {display:none} #splitter {display:none} #right{margin-left:0px; position:static; overflow:visible;} #search{display:none} body header {display: none !important} .docs-heading {display:none !important} body {margin-top:0px !important} .docs-content {padding: 0.5em 0 2em 0 !important} .container{width:auto !important; max-width:820px !important} nav#primary {display:none !important} #content {padding-top:0px !important} nav#docs {padding:21px 0 !important} nav#docs ul {margin-left:15px !important} .boxed {width:auto !important} #docs-content {margin-left:200px !important; float: none !important; width:auto !important; padding-top: 1px !important;} #top {display:none !important} #foot {display:none !important} #copyright {display:none !important} .prettyprint {white-space:pre-wrap !important} .docs-body {float:none !important; margin-left:220px !important; width:auto !important; max-width:600px !important}
+
+blockquote {width:auto !important} 
